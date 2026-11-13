@@ -1,0 +1,119 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  background-image: url(images/bg.jpeg);
+  background-position: center;
+  background-size:cover;
+}
+.container{
+     height: 100vh;
+     width: 100%;
+     background-image: url(images/bg.jpeg);
+     background-position: center;
+     background-size:cover;
+     padding-left: 5%;
+     padding-right: 5%;
+     box-sizing: border-box;
+     position:relative;
+
+     font-family:Arial,;
+}
+.navbar{
+    width: 100%;
+    height:15vh;
+    margin:auto;
+    display:flex;
+    align-items:center;
+}
+.logo{
+    width:250px;
+    margin-right: 0;
+    margin-left: -50;
+    cursor:pointer;
+}
+
+nav{
+    flex: 1;
+    padding-left: 60px;
+  }
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+  }
+
+    nav ul li a{
+           text-decoration: none;
+           color: #333;
+  }
+
+  /* for when u hover over to the pages name on the navigation bar on top */
+  ul li a:hover {
+    color: grey;
+  }
+
+  .content h1{
+    font-size: 45px;
+    font-weight:100;
+    margin-top:24px;
+    margin-bottom:15px;
+    color: #232d60;
+   }
+
+   .content p{
+       font-size:20px;
+       color: #6a7199;
+   }
+
+   .content .btn{
+     display: inline-block;
+     background: #23395d;
+     border-radius: 6px;
+     padding: 10px 20px;
+     box-sizing: border-box;
+     text-decoration: none;
+     color: lightblue;
+     box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+   }
+   .arrow-icons{
+         margin-top:40px;
+         display:flex;
+   }
+   .arrow-icons img{
+      width:40px;
+      margin-right:25px;
+   }
+   .cart{
+     width: 50px;
+     margin-left: -50px;
+     margin-right: -10px;
+     cursor:pointer;
+     border-radius: 15px;
+   }
+
+   .feature-img{
+      height: 80%;
+      position: absolute;
+      bottom:30px;
+      right:160px;
+   }
+
+   footer{
+    text-align: center;
+    padding: 40px;
+    background-color:grey;
+    color: lightblue;
+   }
+   .footer_heading{
+   font-size: 40px;
+   }
+   .footer_para{;
+   font-size: 18px;
+   }
+   footer a{
+     color:lightblue;
+   }

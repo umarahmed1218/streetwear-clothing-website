@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    background-image: url(images/bg.jpeg);
+}
+.container{
+     height: 14vh;
+     width: 100%;
+     background-position: center;
+     background-size:cover;
+     padding-left: 5%;
+     padding-right: 5%;
+     box-sizing: border-box;
+     position:relative;
+}
+.main_container{
+  margin-top: 25px;
+ background-image: url(images/bg.jpeg);
+ display: grid;
+ grid-template-columns: 22% 22% 22% 22%;
+ gap: 40px;
+ padding-left: 40px;
+}
+.product{
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+.product img{
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.product_desc{
+  text-align: center;
+  padding: 15px 0px;
+
+}
+
+.product_desc .title {
+  font-weight: bold;
+  padding: 5px 0px;
+}
+
+.navbar{
+    width: 100%;
+    height:15vh;
+    margin:auto;
+    display:flex;
+    align-items:center;
+}
+
+.logo{
+    width:250px;
+    margin-right: 0;
+    margin-left: -50;
+    cursor:pointer;
+}
+
+nav{
+    flex: 1;
+    padding-left: 60px;
+  }
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+  }
+    nav ul li a{
+           text-decoration: none;
+           color: #333;
+  }
+
+  /* for when u hover over to the pages name on the navigation bar on top */
+  ul li a:hover {
+    color: grey;
+  }
+
+.cart{
+    width: 50px;
+    margin-left: -50px;
+    margin-right: -10px;
+    border-radius: 15px;
+    cursor:pointer;
+}
+
+ footer{
+  text-align: center;
+  padding: 40px;
+  background-color:grey;
+  color: lightblue;
+ }
+ .footer_heading{
+ font-size: 40px;
+ }
+ .footer_para{;
+ font-size: 18px;
+ }
+ footer a{
+   color:lightblue;
+ }

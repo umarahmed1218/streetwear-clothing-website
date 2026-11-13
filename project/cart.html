@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewpoint" content="width-device-width, initial-scale=1.0" />
+    <!--Adding title that will display on the tab bar-->
+    <title>Cart | StreetWear</title>
+    <link rel="stylesheet" href="cart.css" />
+    <!--adding link for font-awesome star icons-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <!--Navigation bar-->
+    <div class="navbar">
+           <a href="home.html"><img src="images/logo.png" class="logo"></a>
+           <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="clothes.html">Clothing</a></li>
+                    <li><a href="accessories.html">Accessories</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+           </nav>
+           <a href="cart.html"><img src="images/bluecart.png" class="cart"></a>
+         </div>
+
+  <!--creating a table for cart-->
+        <table>
+               <!--making header for table-->
+                            <thead>
+                              <!--making the header row-->
+                                <tr>
+                                  <!--giving table heading to each column/creating columns-->
+                                    <th>Product</th>
+                                    <th>Title</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                    <th>Subtotal</th>
+                                     <th>Remove?</th>
+                                </tr>
+                            </thead>
+                   <!--adding body to table-->
+                            <tbody>
+                                <tr>
+                                  <!--adding data for each column of table-->
+                                    <td><a href="#"> <img src="images/6.jpg" /></a></td>
+                                    <td>Classic Supreme Hoodie (Red)</td>
+                                    <td>$125</td>
+                                    <td>1</td>
+                                    <td>$125</td>
+                                    <td class="product-remove"><a href="#">remove</a></td>
+                                </tr>
+
+                                <tr>
+                                  <td><a href="#"> <img src="images/5.jpg" /></a></td>
+                                  <td>Aesthetic Mauve Hoodie</td>
+                                  <td>$30</td>
+                                  <td>2</td>
+                                  <td>$60</td>
+                                  <td class="product-remove"><a href="#">remove</a></td>
+                                </tr>
+                        <!--adding footer to display the total price of all items-->
+                             <tfoot>
+                               <tr>
+                                 <th></th>
+                                 <th></th>
+                                 <th></th>
+                                 <th>Net Amount :</th>
+                                 <th>$185</th>
+                            </tfoot>
+
+                         <tbody>
+                        </table>
+ <!--code for footer-->
+      <footer>
+       <h3 class="footer_heading">StreetWear.</h3>
+       <p class="heading_para">We're here to help!</p>
+       <p class="heading_para">Email: <a href="https://mail.google.com/mail/u/0/#inbox">i220582@nu.edu.pk</a></p>
+       <p class="heading_para">Phone: 03026225864</p>
+       <p class="heading_para">Address: Islamabad, Pakistan</p>
+      </footer>
+
+  </body>
+</html>
